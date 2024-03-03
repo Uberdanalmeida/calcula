@@ -1,10 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to bottom, rgb(84, 208, 179), rgb(86, 119, 86));
-
     height: 100vh;
+    background-color: rgba(0, 0, 0, 0.753);
 }
+
 table {
     background-color: aqua;
     height: 500px;
@@ -12,16 +12,22 @@ table {
     margin: auto;
     cursor: pointer;
 }
+
 td {
     background-color: black;
     color: white;
     width: 50px;
-    text-align: center;
-    
+    text-align: center; 
 }
+
+td:hover {
+    background-color: rgb(120, 106, 106);
+}
+
 #calcula {
     background-color: aqua;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
     height: 50px;
     line-height: 50px;
     width: 300px;
@@ -31,4 +37,34 @@ td {
 }
 h1 {
     text-align: center;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    body {
+        height: 100vh;  
+    }
+
+    table {
+        background-color: black;
+    }
+
+    td {
+        background-color: orange;
+        color: black;
+        height: 50px;
+        width: 50px;
+    }
+
+    td:hover {
+        background-color: rgba(255, 166, 0, 0.555);
+    }
+
+    #calcula {
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        font-weight: normal;
+        border-radius: 20px 20px 0 0;
+    }
 }
