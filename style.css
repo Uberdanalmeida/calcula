@@ -56,10 +56,6 @@ h1 {
         width: 50px;
     }
 
-    td:hover {
-        background-color: rgba(255, 166, 0, 0.555);
-    }
-
     #calcula {
         background-color: black;
         color: white;
