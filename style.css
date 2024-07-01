@@ -40,6 +40,17 @@ h1 {
     color: white;
 }
 
+footer {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+span {
+    color: yellow;
+}
+
 @media (max-width: 480px) {
     body {
         height: 100vh;  
